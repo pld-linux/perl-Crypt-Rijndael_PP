@@ -1,3 +1,7 @@
+#
+# Conditional build
+%bcond_without	tests	# Do not perform "make test"
+#
 %include	/usr/lib/rpm/macros.perl
 %define		pdir	Crypt
 %define		pnam	Rijndael_PP
@@ -30,7 +34,8 @@ standardu zaawansowanego szyfrowania.
 %{__perl} Makefile.PL \
 	INSTALLDIRS=vendor
 %{__make}
-%{!?_without_tests:%{__make} test}
+
+%{?with_tests:%{__make} test}
 
 %install
 rm -rf $RPM_BUILD_ROOT
