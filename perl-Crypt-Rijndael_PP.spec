@@ -6,7 +6,8 @@ Summary(pl):	Modu³ Perla Crypt::Rijndael_PP - algorytm szyfrowania Rijndael w sa
 Name:		perl-Crypt-Rijndael_PP
 Version:	0.04
 Release:	2
-License:	Artistic or GPL
+# same as perl
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	db8e06273eb49358ea2e7aa87dcdd319
