@@ -3,8 +3,8 @@
 %bcond_without	tests	# Do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define		pdir	Crypt
-%define		pnam	Rijndael_PP
+%define	pdir	Crypt
+%define	pnam	Rijndael_PP
 Summary:	Crypt::Rijndael_PP Perl module - Rijndael encryption algorithm in pure Perl
 Summary(pl):	Modu³ Perla Crypt::Rijndael_PP - algorytm szyfrowania Rijndael w samym Perlu
 Name:		perl-Crypt-Rijndael_PP
