@@ -6,7 +6,7 @@
 %define		pdir	Crypt
 %define		pnam	Rijndael_PP
 Summary:	Crypt::Rijndael_PP Perl module - Rijndael encryption algorithm in pure Perl
-Summary(pl):	Modu³ Perla Crypt::Rijndael_PP - algorytm szyfrowania Rijndael w samym Perlu
+Summary(pl.UTF-8):   ModuÅ‚ Perla Crypt::Rijndael_PP - algorytm szyfrowania Rijndael w samym Perlu
 Name:		perl-Crypt-Rijndael_PP
 Version:	0.04
 Release:	3
@@ -23,8 +23,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 This is a pure Perl implementation of the new AES Rijndael.
 
-%description -l pl
-Ten modu³ jest czysto perlow± implementacj± szyfru Rijndael - nowego
+%description -l pl.UTF-8
+Ten moduÅ‚ jest czysto perlowÄ… implementacjÄ… szyfru Rijndael - nowego
 standardu zaawansowanego szyfrowania.
 
 %prep
