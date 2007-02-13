@@ -6,7 +6,7 @@
 %define		pdir	Crypt
 %define		pnam	Rijndael_PP
 Summary:	Crypt::Rijndael_PP Perl module - Rijndael encryption algorithm in pure Perl
-Summary(pl.UTF-8):   Moduł Perla Crypt::Rijndael_PP - algorytm szyfrowania Rijndael w samym Perlu
+Summary(pl.UTF-8):	Moduł Perla Crypt::Rijndael_PP - algorytm szyfrowania Rijndael w samym Perlu
 Name:		perl-Crypt-Rijndael_PP
 Version:	0.04
 Release:	3
