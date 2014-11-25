@@ -1,10 +1,10 @@
 #
 # Conditional build
 %bcond_without	tests	# Do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	Crypt
 %define		pnam	Rijndael_PP
+%include	/usr/lib/rpm/macros.perl
 Summary:	Crypt::Rijndael_PP Perl module - Rijndael encryption algorithm in pure Perl
 Summary(pl.UTF-8):	Moduł Perla Crypt::Rijndael_PP - algorytm szyfrowania Rijndael w samym Perlu
 Name:		perl-Crypt-Rijndael_PP
@@ -15,6 +15,7 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	3b3715e6af129feeb2ce06ec0ebd1592
+URL:		http://search.cpan.org/dist/Crypt-Rijndael_PP/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
