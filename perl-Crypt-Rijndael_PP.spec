@@ -8,7 +8,7 @@ Summary:	Crypt::Rijndael_PP Perl module - Rijndael encryption algorithm in pure 
 Summary(pl.UTF-8):	Moduł Perla Crypt::Rijndael_PP - algorytm szyfrowania Rijndael w samym Perlu
 Name:		perl-Crypt-Rijndael_PP
 Version:	0.05
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
